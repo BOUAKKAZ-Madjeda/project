@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<title>My web</title>
+</head>
+
+<body>
+<nav id="navbar" >
+	<div class="logo">BOUAKKAZ Madjeda</div>
+	<div>
+	   <ul class="nav-links">
+		 <li><a href="#About">About</a></li>
+		 <li><a href="#Experience">Experience</a></li>
+		 <li><a href="#Project">Project</a></li>
+		 <li><a href="#Contact">Contact</a></li>
+	  </ul>
+	</div>
+ </nav>
+  <nav id="hamburger-nav">
+		<div class="logo">BOUAKKAZ Madjeda</div>
+		<div class="hamburger-menu">
+			<div class="hamburger-icon" onclick="toggleMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu-links">
+				<li><a href="#About" onclick="toggleMenu()">About</a></li>
+		        <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+		        <li><a href="#Project" onclick="toggleMenu()">Project</a></li>
+		        <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+			</div>
+		</div></nav>
+    <section id="profile">
+    	<div clss="section__pic-container">
+    		<img class="me" src="C:\Users\souma\Pictures/photo.jpg" alt="me" width="200px">
+    	</div>
+    	<div class="section__text">
+    		<p class="section__text_p1">Hello, I'm </p>
+    		<h1 clas="title">BOUAKKAZ Madjeda</h1>
+    		<p class="section__text_p2">Futur ingineer</p>
+    		<div class="btn-container">
+    			<button class="btn btn-color-2"
+    			onclick="window.open('file:///C:/Users/souma/Desktop/cv.pdf')">Download CV</button>
+    			<button class="btn btn-color-1"
+    			onclick="location.href='./#contact'">Contact Info</button>
+    		</div>
+    		<div id="socials-container">
+    			<img src="https://www.pngitem.com/pimgs/m/183-1839634_linkedin-png-icon-linkedin-icon-black-circle-transparent.png" alt="linkedline profile" width="200px" class="icon" onclick="location.href='https://www.linkedin.com/in/bouakkaz-madjeda-64861129b'">
+    			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmrGmeBv3SOLSKz6OlTVlVYkfH9_W3BBgdrA&s" alt="Github profile" width="195px" class="icon" onclick="location.href='https://github.com/BOUAKKAZ-Madjeda'">
+    			
+    		</div>
+    	</div>
+    </section>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
